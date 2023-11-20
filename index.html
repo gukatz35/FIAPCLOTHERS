@@ -1,0 +1,325 @@
+<!DOCTYPE html>
+<html lang="pt-br">
+
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>FiapTech</title>
+    <link rel="stylesheet" href="https://stackpath.bootstrapcdn.com/bootstrap/4.5.2/css/bootstrap.min.css">
+    
+    <style>
+
+      
+
+         .inicio{
+            font-family: 'Arial', sans-serif;
+            text-align: center;
+            
+        }
+
+        .welcome-text {
+            max-width: 800px;
+            margin: 0 auto;
+            font-size: 18px;
+            line-height: 1.6;
+        }
+
+     .card {
+            width: 18rem;
+            margin: auto;
+            margin-top: 20px;
+        }
+
+        .carousel-control-prev-icon,
+  .carousel-control-next-icon {
+    filter: invert(100%); /* Altera a cor da seta para preto */
+  }
+
+       
+         h2{
+            margin-top: 70px;
+            margin-bottom: 30px;
+         }
+        body {
+            font-family: Arial, sans-serif;
+            margin: 0;
+            padding: 0;
+            background-color: #d4d4d4;
+        }
+
+        header {
+            background-color: #333;
+            color: white;
+            text-align: center;
+            padding: 1em;
+
+        }
+
+        nav {
+            background-color: #666;
+            padding: 1em;
+            text-align: center;
+            background-color: #ed145b;
+        }
+
+        nav a {
+            color: white;
+            text-decoration: none;
+            padding: 1em;
+            margin: 0 1em;
+           
+        }
+        nav a:hover{
+            text-decoration: none;
+            color: #011425;
+        }
+
+        section {
+            padding: 2em;
+            display: flex;
+            flex-direction: column;
+            justify-content: center;
+            align-items: center;
+        }
+
+        footer {
+            background-color: #333;
+            color: white;
+            text-align: center;
+            padding: 1em;
+           
+            bottom: 0;
+            width: 100%;
+        }
+
+        .carousel-inner img {
+            width: 100%;
+            height: 100%;
+        }
+
+        .product {
+            margin-bottom: 20px;
+        }
+
+        .cartao {
+            font-family: 'Arial', sans-serif;
+            padding: 20px;
+        }
+
+        .card {
+            width: 18rem;
+            text-align: center;
+            margin: auto;
+        }
+
+        .card-img-top {
+            width: 100%; /* A imagem ocupará 100% da largura do card */
+            height: auto; /* A altura será ajustada automaticamente */
+        }
+
+        .card-body {
+            display: flex;
+            flex-direction: column;
+            justify-content: center;
+            align-items: center;
+            height: 100%; /* Ocupará 100% da altura do card */
+        }
+
+        .alinhar{
+            margin-top: 100px;
+            display: flex;
+            flex-direction: row;
+
+            
+        }
+
+        header a:hover {
+  color: #ed145b;
+  text-decoration: none;
+}
+
+        .arrumar{
+            width: 1000px;
+            height: 500px;
+        }
+
+        #myCarousel img {
+      object-fit: cover;
+      height: 750px; /* Altura fixa para todas as imagens */
+    }
+    #myCarousel img {
+  object-fit: contain;
+  width: 100%;
+  height: auto;
+}
+
+    header {
+      background-color: #585858;
+      color: white;
+      padding: 10px;
+      display: flex;
+      justify-content: space-between;
+      align-items: center;
+    }
+
+    header h1 {
+      color: #ff69b4; /* rosa */
+      margin: 10px;
+      margin-left: 140px;
+      text-align: center; /* centraliza o texto */
+    }
+
+    header a {
+      color: white;
+      text-decoration: none;
+      margin-right: 10px; /* agora é margin-right */
+    }
+
+
+     
+    </style>
+</head>
+
+<body>
+  <header>
+    <div></div>
+    <h1>FIAP Clothers</h1>
+    <div>
+      <a class="link" href="/cadastrousuario">Usuário</a>
+      <a class="link" href="/cadastroproduto">Produtos</a>
+    </div>
+  </header>
+
+    <section>
+        <h3><b>Produtos mais vendidos</b></h3>
+
+        <div class="container mt-5">
+            <div id="myCarousel" class="carousel slide" data-ride="carousel">
+              <div class="carousel-inner">
+                <div class="carousel-item active">
+                  <img src="https://images.puma.com/image/upload/f_auto,q_auto,b_rgb:fafafa/global/538963/01/mod01/fnd/BRA/w/2000/h/2000/fmt/png" class="d-block w-100" alt="Slide 1">
+                </div>
+                <div class="carousel-item">
+                  <img src="https://images.puma.com/image/upload/f_auto,q_auto,b_rgb:fafafa/global/530074/01/mod01/fnd/BRA/w/2000/h/2000/fmt/png" class="d-block w-100" alt="Slide 2">
+                </div>
+                <div class="carousel-item">
+                  <img src="https://images.puma.com/image/upload/f_auto,q_auto,b_rgb:fafafa/global/622218/01/mod01/fnd/BRA/w/2000/h/2000/fmt/png" class="d-block w-100" alt="Slide 3">
+                </div>
+              </div>
+              <a class="carousel-control-prev" href="#myCarousel" role="button" data-slide="prev">
+                <span class="carousel-control-prev-icon" aria-hidden="true"></span>
+                <span class="sr-only">Previous</span>
+              </a>
+              <a class="carousel-control-next" href="#myCarousel" role="button" data-slide="next">
+                <span class="carousel-control-next-icon" aria-hidden="true"></span>
+                <span class="sr-only">Next</span>
+              </a>
+            </div>
+          </div>
+          
+        <h2>Mais que uma marca de roupas</h2>
+
+        <div class="inicio">
+    <div class="welcome-text">
+       
+
+        <p>
+          História da Loja de Roupas FIAP Clothers
+          
+          Em um vibrante cenário urbano, surge a FIAP Clothers, uma loja de roupas com uma proposta inovadora e cheia de estilo. Fundada no coração da cidade, a FIAP Clothers nasceu da paixão pela moda e pela expressão individual, combinando o dinamismo contemporâneo com a essência única de cada pessoa que cruza suas portas.</p>
+
+        <p>A história da FIAP Clothers começou com um grupo de entusiastas da moda, formados pela Fundação Instituto de Administração (FIAP), que compartilhavam uma visão comum de criar um espaço onde a moda não apenas segue as tendências, mas também as define. Inspirados pela fusão de tecnologia, inovação e design, decidiram criar uma loja que refletisse os valores da FIAP: excelência, criatividade e empreendedorismo.</p>
+
+        <p>Desde o início, a FIAP Clothers tem se dedicado a oferecer uma experiência única de compra. Cada peça de roupa cuidadosamente selecionada reflete as últimas tendências da moda, proporcionando aos clientes a oportunidade de expressar sua individualidade com estilo e confiança. A loja tornou-se um destino para aqueles que buscam não apenas roupas, mas uma declaração de moda que transcende o convencional.</p>
+
+
+
+    </div>
+
+    
+
+<div class="alinhar">
+    <div class="cartao">
+        <div class="card">
+            <img src="https://images.puma.com/image/upload/f_auto,q_auto,b_rgb:fafafa/global/379268/01/sv01/fnd/BRA/w/2000/h/2000/fmt/png" class="card-img-top" alt="Imagem de exemplo">
+            <div class="card-body">
+                <h5 class="card-title">TÊNIS DE BASQUETE MB.03 TOXIC</h5>
+                <p class="card-text">O terceiro tênis exclusivo de LaMelo Ball, MB.03, faz uma viagem ao universo alternativo nunca antes visto que é o mundo de Melo. </p>
+                
+            </div>
+        </div>
+    
+       
+    </div>
+    
+    
+    <div class="cartao">
+        <div class="card">
+            <img src="https://images.puma.com/image/upload/f_auto,q_auto,b_rgb:fafafa/global/622821/02/fnd/BRA/w/2000/h/2000/fmt/png" class="card-img-top" alt="Imagem de exemplo">
+            <div class="card-body">
+                <h5 class="card-title">MOLETOM PUMA HOOPS </h5>
+                <p class="card-text">A PUMA HOOPS e a marca LaFrancé da LaMelo Ball se uniram para uma coleção de cápsulas que pega o estilo de assinatura do superstar e oferece uma abordagem sofisticada. </p>
+                
+            </div>
+        </div>
+    
+       
+    </div>
+    
+    
+    <div class="cartao">
+        <div class="card">
+            <img src="https://images.puma.com/image/upload/f_auto,q_auto,b_rgb:fafafa/global/622828/01/mod01/fnd/BRA/w/2000/h/2000/fmt/png" class="card-img-top" alt="Imagem de exemplo">
+            <div class="card-body">
+                <h5 class="card-title">CAMISETA PUMA HOOPS</h5>
+                <p class="card-text">A PUMA HOOPS e a marca LaFrancé da LaMelo Ball se uniram para uma coleção de cápsulas que pega o estilo de assinatura do superstar e oferece uma abordagem sofisticada. </p>
+                
+            </div>
+        </div>
+    
+       
+    </div>
+
+
+    <div class="cartao">
+      <div class="card">
+          <img src="https://images.puma.com/image/upload/f_auto,q_auto,b_rgb:fafafa/global/622832/01/mod01/fnd/BRA/w/2000/h/2000/fmt/png" class="card-img-top" alt="Imagem de exemplo">
+          <div class="card-body">
+              <h5 class="card-title">SHORTS PUMA HOOPS</h5>
+              <p class="card-text">A PUMA HOOPS e a marca LaFrancé da LaMelo Ball se uniram para uma coleção de cápsulas que pega o estilo de assinatura do superstar e oferece uma abordagem sofisticada.</p>
+              
+          </div>
+      </div>
+  
+     
+  </div>
+
+  <div class="cartao">
+    <div class="card">
+        <img src="https://images.puma.com/image/upload/f_auto,q_auto,b_rgb:fafafa/global/379420/01/sv01/fnd/BRA/w/2000/h/2000/fmt/png" class="card-img-top" alt="Imagem de exemplo">
+        <div class="card-body">
+            <h5 class="card-title">TÊNIS DE BASQUETE MB.02</h5>
+            <p class="card-text">MB.02 - o mais recente tênis da linha PUMA Hoops de outro mundo da LaMelo Ball - está explodindo em cena, com as asas de assinatura do Melo.</p>
+            
+        </div>
+    </div>
+
+   
+</div>
+</div>
+    </section>
+
+
+    <footer>
+        <p>Para entrar em contato conosco use o nosso whatsapp <a href="">11 99738-0613</a></p>
+    </footer>
+
+    <!-- Adicione a biblioteca Bootstrap JS e o jQuery -->
+    <script src="https://code.jquery.com/jquery-3.5.1.slim.min.js"></script>
+    <script src="https://cdn.jsdelivr.net/npm/@popperjs/core@2.9.1/dist/umd/popper.min.js"></script>
+    <script src="https://stackpath.bootstrapcdn.com/bootstrap/4.5.2/js/bootstrap.min.js"></script>
+
+
+</body>
+
+</html>
