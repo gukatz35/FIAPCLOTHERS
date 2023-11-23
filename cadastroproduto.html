@@ -73,7 +73,7 @@
 </head>
 
 <body>
-    <form>
+    <form action ="/cadastroproduto"  method="post">
         <h2><a href="#" onclick="history.go(-1);"></a> Tela de Cadastro</h2>
         
         <label for="codigo">Código:</label>
@@ -86,10 +86,10 @@
         <input type="text" id="fornecedor" name="fornecedor" required>
 
         <label for="dataFabricacao">Data de Fabricação:</label>
-        <input type="date" id="dataFabricacao" name="dataFabricacao" required>
+        <input type="date" id="dataFabricacao" name="datafabricacao" required>
 
         <label for="quantidadeEstoque">Quantidade no Estoque:</label>
-        <input type="number" id="quantidadeEstoque" name="quantidadeEstoque" required>
+        <input type="number" id="quantidadeEstoque" name="quantidadestoque" required>
 
         <button type="submit">Cadastrar</button>
     </form>
